@@ -1,0 +1,332 @@
+
+body{
+    margin: 0;
+    background-color: #282C34;
+}
+
+.nav{
+    position: relative;
+    margin-top: 24px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.toplink1:hover, .toplink2:hover, .toplink-left1:hover, .toplink-left2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.toplink-left1 {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 7.5px;
+    left: 40px;
+}
+
+.toplink-left2 {
+    position: absolute;
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+    left: 20px;
+}
+
+.toplink1 {
+   position: absolute;
+   right: 172px;  
+   margin-top: 7.5px;
+}
+
+.user-icon{
+    border-radius: 50%;
+}
+
+.toplink2 {
+    position: absolute;
+    right: 112px; 
+    margin-top: 7.5px; 
+ }
+
+.nav a{
+    margin-right: 20px;
+}
+
+.topimage{
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color:transparent;
+    border-radius: 50%;
+    
+}
+
+.topimage2 {
+    position: absolute;
+    right: 62px;
+    height: 27px;
+    width: 28px;
+    margin-top: 2px;
+    background-image: url('unnamedv1.png');
+}
+
+.topimage2:hover{
+    background-image: url('unnamed.png');
+    cursor: pointer;
+}
+
+#middle-logo{
+    text-align: center;
+    margin-top: 140px;
+}
+
+#searchbar-container{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    border: 2px solid #eeeeee;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+
+.buttons {
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.button1, .button2 {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #faf8f8;
+    padding: 8px 10px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif; 
+    
+
+}
+
+.button1:hover {
+    border:1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+    
+}
+.button2:hover {
+    border:1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+.bottom-nav {
+    color: whitesmoke;
+    background-color: #707793;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 35px; 
+    border-top: 2px solid #707793;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.bottomlink-left1 {
+    position: absolute;
+    left: 32px;
+    bottom: 8.5px;
+
+}
+.bottomlink-left2 {
+    position: absolute;
+    left: 132px;
+    bottom: 8.5px;
+}
+.bottomlink-left3 {
+    position: absolute;
+    left: 212px;
+    bottom: 8.5px;
+}
+.bottomlink1{
+    position: absolute;
+    right: 32px;
+    bottom: 8.5px;
+}
+.bottomlink2{
+    position: absolute;
+    right: 132px;
+    bottom: 8.5px;
+}
+.bottomlink3{
+    position: absolute;
+    right: 212px;
+    bottom: 8.5px;
+}
+
+.bottomlink-left1:hover, .bottomlink-left2:hover, .bottomlink-left3:hover, .bottomlink1:hover, .bottomlink2:hover, .bottomlink3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width:590px){
+.bottom-nav{
+ padding-top: 60px;
+}
+.bottomlink-left1 {
+    position: absolute;
+    left: 32px;
+    bottom: 8.5px;
+
+}
+.bottomlink-left2 {
+    position: absolute;
+    left: 132px;
+    bottom: 8.5px;
+}
+.bottomlink-left3 {
+    position: absolute;
+    left: 212px;
+    bottom: 8.5px;
+}
+.bottomlink1{
+    position: absolute;
+    left: 32px;
+    bottom: 35px;
+}
+.bottomlink2{
+    position: absolute;
+    left: 132px;
+    bottom: 35px;
+}
+.bottomlink3{
+    position: absolute;
+    left: 212px;;
+    bottom: 35px;
+}
+#searchbar{
+    width: 350px;
+}
+}
+
+
+
+@media (max-width:414px){
+    .bottom-nav{
+        padding-top: 60px;
+       }
+       .bottomlink-left1 {
+           position: absolute;
+           left: 62px;
+           bottom: 8.5px;
+       
+       }
+       .bottomlink-left2 {
+           position: absolute;
+           left: 162px;
+           bottom: 8.5px;
+       }
+       .bottomlink-left3 {
+           position: absolute;
+           left: 242px;
+           bottom: 8.5px;
+       }
+       .bottomlink1{
+           position: absolute;
+           left: 62px;
+           bottom: 35px;
+       }
+       .bottomlink2{
+           position: absolute;
+           left: 162px;
+           bottom: 35px;
+       }
+       .bottomlink3{
+           position: absolute;
+           left: 242px;;
+           bottom: 35px;
+       }
+}
+
+@media (max-width:375px){
+    .bottom-nav{
+        padding-top: 60px;
+       }
+       .bottomlink-left1 {
+           position: absolute;
+           left: 42px;
+           bottom: 8.5px;
+       
+       }
+       .bottomlink-left2 {
+           position: absolute;
+           left: 142px;
+           bottom: 8.5px;
+       }
+       .bottomlink-left3 {
+           position: absolute;
+           left: 222px;
+           bottom: 8.5px;
+       }
+       .bottomlink1{
+           position: absolute;
+           left: 42px;
+           bottom: 35px;
+       }
+       .bottomlink2{
+           position: absolute;
+           left: 142px;
+           bottom: 35px;
+       }
+       .bottomlink3{
+           position: absolute;
+           left: 222px;;
+           bottom: 35px;
+       }
+}
+
+@media (max-width:360px){
+    #searchbar {
+        max-width: 320px;
+    }
+    
+    .bottom-nav{
+        padding-top: 60px;
+       }
+       .bottomlink-left1 {
+           position: absolute;
+           left: 32px;
+           bottom: 8.5px;
+       
+       }
+       .bottomlink-left2 {
+           position: absolute;
+           left: 132px;
+           bottom: 8.5px;
+       }
+       .bottomlink-left3 {
+           position: absolute;
+           left: 212px;
+           bottom: 8.5px;
+       }
+       .bottomlink1{
+           position: absolute;
+           left: 32px;
+           bottom: 35px;
+       }
+       .bottomlink2{
+           position: absolute;
+           left: 132px;
+           bottom: 35px;
+       }
+       .bottomlink3{
+           position: absolute;
+           left: 212px;;
+           bottom: 35px;
+       }
+}
